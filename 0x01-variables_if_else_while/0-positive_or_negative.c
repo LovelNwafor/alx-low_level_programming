@@ -2,10 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - tell us about the input number
+ * main - Determines if a number is positive ,negative or zero.
  *
  * Return: always (0)
- *
  */
 int main(void)
 {
@@ -21,7 +20,7 @@ int main(void)
 	{
 		printf("%d is zero\n" , n);
 	}
-	else if (n < 0)
+	else  (n < 0)
 	{
 		printf("%d is negative\n" , n);
 	}
