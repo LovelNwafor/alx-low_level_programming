@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 /**
 * main - prints all possible combinations of two two-digit numbers
@@ -26,5 +27,5 @@ putchar(' ');
 }
 }
 putchar('\n');
-return(0);
+return (0);
 }
