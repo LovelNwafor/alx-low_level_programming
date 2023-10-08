@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE -o cisfu
+gcc -s  $CFILE -o cisfu
