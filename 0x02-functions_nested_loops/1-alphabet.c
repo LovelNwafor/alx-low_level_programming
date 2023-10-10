@@ -1,8 +1,12 @@
-#include <unistd.h>
-
-int main(void)
+#include "main.h"
+/**
+* print_alphabet - print all alphabet in lowercase
+*/
+void print_alphabet(void)
 {
-    char str[] = "_putchar\n";
-    write(STDOUT_FILENO, str, sizeof(str) - 1);
-    return (0);
+char letter;
+for (letter = 'a'; letter <= 'z'; letter++)
+_putchar(letter);
+_putchar('\n');
 }
+
