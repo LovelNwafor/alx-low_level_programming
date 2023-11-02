@@ -1,38 +1,14 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <limits.h>
+
 
 /**
- * main - multiplies two positive numbers
- * @argc: n arguments
- * @argv: args
- * Return: int
-**/
-
-int main(int argc, char *argv[])
-{
-	unsigned long mul;
-	int i, j;
-
-	if (argc != 3)
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 	{
-		printf("Error\n");
-		exit(98);
-	}
+		printf("Hel, World, World, Hel.\n");
 
-	for (i = 1; i < argc; i++)
-	{
-		for (j = 0; argv[i][j] != '\0'; j++)
-		{
-			if (argv[i][j] > 57 || argv[i][j] < 48)
-			{
-				printf("Error\n");
-				exit(98);
-			}
-		}
+		return (0);
 	}
-	mul = atol(argv[1]) * atol(argv[2]);
-	printf("%lu\n", mul);
-	return (0);
-}
