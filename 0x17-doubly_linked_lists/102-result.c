@@ -9,5 +9,5 @@ for i in range(100, 1000):
         if is_palindrome(product) and product > largest_palindrome:
             largest_palindrome = product
 
-print("The largest palindrome made from the product of two 3-digit numbers is:", largest_palindrome)
-
+with open("102-result", "w") as file:
+    file.write(str(largest_palindrome))
